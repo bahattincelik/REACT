@@ -1,0 +1,13 @@
+.card-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.buton-div {
+  margin: 20px;
+  text-align: center;
+}
+.text-div {
+  text-align: center;
+}
