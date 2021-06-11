@@ -18,4 +18,5 @@ const data = [
     img: "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_angular_icon_130754.png",
   },
 ];
+
 export default data;
