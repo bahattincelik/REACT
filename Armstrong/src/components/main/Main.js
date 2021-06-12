@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Card, Button, InputGroup, FormControl } from "react-bootstrap";
 import "./Main.css";
 function Main() {
-  let sayi = document.getElementsByClassName("sayi");
-  console.log(sayi);
-  let kupToplami = 0;
-  function sayiBul() {
+  const [sayi, setSayi] = useState("");
+
+  function sayiBul(event) {
+    setSayi(event.target.value);
     console.log(sayi);
   }
 

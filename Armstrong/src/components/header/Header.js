@@ -10,7 +10,8 @@ function Header() {
         banner
         bg-success bg-gradient
         text-center text-light
-        p-5"
+        p-5
+        mb-5"
     >
       <h1>
         <img className="resim" src={logo} alt="" /> ARMSTRONG SAYISINI BUL
