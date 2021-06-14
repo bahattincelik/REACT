@@ -1,14 +1,11 @@
-// React'ın temel kutuphaneleri
 import React from "react";
 import ReactDOM from "react-dom";
-
-import "./index.css";
-// App modulunun eklenmesi
 import App from "./App";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App /> {/* App modulunun cagrilmasi */}
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
