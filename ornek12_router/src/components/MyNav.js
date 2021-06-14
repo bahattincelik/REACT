@@ -16,10 +16,15 @@ function MyNav() {
             <Link to="/" className="nav-link">
               Home
             </Link>
-
-            <Nav.Link href="#link">Kurslar</Nav.Link>
-            <Nav.Link href="#link">Kişiler</Nav.Link>
-            <Nav.Link href="#link">İletişim</Nav.Link>
+            <Link to="/kurslar" className="nav-link">
+              Kurslar
+            </Link>
+            <Link to="/kisiler" className="nav-link">
+              Kisiler
+            </Link>
+            <Link to="/iletisim" className="nav-link">
+              Iletisim
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
